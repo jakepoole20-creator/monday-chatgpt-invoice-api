@@ -1,0 +1,18 @@
+{
+  "name": "monday-chatgpt-invoice-api",
+  "version": "1.0.0",
+  "description": "Middleware API that turns Monday.com items and subitems into ChatGPT-assisted invoice PDFs and uploads them back to Monday.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "form-data": "^4.0.4",
+    "openai": "^5.20.2",
+    "pdfkit": "^0.17.2"
+  }
+}
